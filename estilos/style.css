@@ -12,7 +12,8 @@
 }
 
 body {
-    background-color: rgb(177, 177, 250);
+    background: lightskyblue url('/imagens/imagem-fundo.jpg') center center no-repeat fixed;
+    background-size: cover;
     font-family: var(--fonte-padrao);
 }
 
