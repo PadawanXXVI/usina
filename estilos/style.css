@@ -26,6 +26,7 @@ header {
 
 header h1{
     color: white;
+    font-family: var(--fonte-destaque);
 }
 
 nav {
