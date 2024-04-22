@@ -12,7 +12,7 @@
 }
 
 body {
-    background: lightskyblue url('/imagens/imagem-fundo.jpg') center center no-repeat fixed;
+    background: url('/imagens/imagem-fundo.jpg') no-repeat top center fixed;
     background-size: cover;
     font-family: var(--fonte-padrao);
 }
@@ -36,11 +36,19 @@ nav {
 }
 main {
     margin: auto;
-    padding: 30px;    
+    padding: 30px; 
+    position: relative;   
 }
 
 main h1 {
     text-align: center;
+}
+#sei {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 #aniversario > iframe {
     text-align: center;
