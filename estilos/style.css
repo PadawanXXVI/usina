@@ -20,19 +20,22 @@ body {
 header {
     background-color: #4054b2;
     min-height: 100px;
-    padding-top: 40px;
-    text-align: center;
+    padding-top: 40px;   
 }
 
 header h1{
     color: white;
     font-family: var(--fonte-destaque);
+    text-align: left;
+    padding: 20px;
 }
 
 nav {
     color: white;
+    font-family: var(--fonte-destaque);
     font-weight: bold;
     text-decoration: none;
+    text-align: right;
 }
 main {
     margin: auto;
@@ -43,13 +46,7 @@ main {
 main h1 {
     text-align: center;
 }
-#sei {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
+
 #aniversario > iframe {
     text-align: center;
 }
