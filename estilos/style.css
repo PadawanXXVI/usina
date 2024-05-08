@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+/*
+Cores: 
+Azul: #4079BC
+Verde: #00A858
+*/
 * {
     margin: 0px;
     padding: 0px;
@@ -18,7 +24,7 @@ body {
 }
 
 header {
-    background-color: #4054b2;
+    background-color: #4079BC;
     min-height: 100px;
     padding-top: 40px;   
 }
@@ -62,7 +68,7 @@ main h1 {
 }
 
 footer {
-    background-image:linear-gradient(to bottom, #4054b2, #4055b263);
+   background-color: #00A858;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -70,4 +76,10 @@ footer {
 
 footer p{
     margin: auto;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
