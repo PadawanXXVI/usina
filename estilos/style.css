@@ -12,7 +12,7 @@
 }
 
 body {
-    background: url('/imagens/imagem-fundo.jpg') no-repeat top center fixed;
+    background:white url('/imagens/imagem-fundo.jpg') no-repeat top center fixed;
     background-size: cover;
     font-family: var(--fonte-padrao);
 }
@@ -29,13 +29,23 @@ header h1{
     text-align: center;
     padding: 20px;
 }
-
+header p a {
+    color: white;
+    font-family: var(--fonte-padrao);
+    text-align: left;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+}
 nav {
+    text-align: right;
+}
+header nav a {
     color: white;
     font-family: var(--fonte-destaque);
     font-weight: bold;
-    text-decoration: none;
-    text-align: right;
+    text-decoration: none;   
+    padding: 10px;   
 }
 main {
     margin: auto;
